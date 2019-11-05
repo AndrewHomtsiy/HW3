@@ -56,7 +56,6 @@ input[type="text"] {
     background-color: #444444;
     border: 1px solid #777;
     height: 55%;
-    border-left: none;
     border-radius: 0px 5px 5px 0px;
 }
 button {
