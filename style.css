@@ -102,3 +102,6 @@ i.fa.fa-search {
     pointer-events: none;
     color: #aaa;
 }
+.form-group.has-search {
+    height: 100%;
+}
