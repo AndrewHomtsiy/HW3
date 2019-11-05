@@ -89,7 +89,8 @@ i.fa.fa-search {
     padding: 0px 33px;
     margin: 10px 0px;
     width: 65%;
-    height: 60%;
+    height: 60%;}
+
 .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
