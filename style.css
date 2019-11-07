@@ -103,12 +103,7 @@ i.fa.fa-search {
 .form-group.has-search {
     height: 100%;
 }
-input[type=checkbox]:after {
-  content: " ";
-  background-color: blue;
-  visibility: visible;
-}
-
 input[type=checkbox]:checked:after {
-  content: "\2714";
+    background: green !important;
+    color: black !important;
 }
