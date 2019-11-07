@@ -83,7 +83,6 @@ i.fa.fa-search {
 .has-search input[type="text"] {
     background-color: #444444;
     border: 1px solid #777;
-    border-left: none;
     border-radius: 5px;
     padding: 0px 33px;
     margin: 10px 0px;
@@ -104,7 +103,12 @@ i.fa.fa-search {
 .form-group.has-search {
     height: 100%;
 }
-input#scales:checked ~ #scales {
-    background-color: blue;
-    color: blue;
+input[type=checkbox]:after {
+  content: " ";
+  background-color: blue;
+  visibility: visible;
+}
+
+input[type=checkbox]:checked:after {
+  content: "\2714";
 }
