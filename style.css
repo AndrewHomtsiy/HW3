@@ -105,7 +105,5 @@ i.fa.fa-search {
 .form-group.has-search {
     height: 100%;
 }
-input[type=checkbox]:checked:after {
-    background: green !important;
-    color: black !important;
-}
+input[type='checkbox']:checked+label::before {
+    background-color: red;}
