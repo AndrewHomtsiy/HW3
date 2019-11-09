@@ -51,6 +51,9 @@ h4 {
 form {
     display: inline-flex;
     align-items: center;
+    position: relative;
+    right: 25px;
+    color: white;
 }
 input[type="text"] {
     background-color: #444444;
@@ -65,10 +68,7 @@ button {
     border-right: none;
     border-radius: 5px 0px 0px 5px;
 }
-form {
-    position: relative;
-    right: 15px;
-}
+
 h4.date {
     position: relative;
     left: 75px;
