@@ -80,6 +80,9 @@ i.fa.fa-archive {
 i.fa.fa-search {
     color: #777;
 }
+i.fa.fa-ellipsis-h {
+    color: white;
+}
 .has-search input[type="text"] {
     background-color: #444444;
     border: 1px solid #777;
